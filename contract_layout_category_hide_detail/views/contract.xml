@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <record id="contract_contract_form_view_hide_details" model="ir.ui.view">
         <field name="name">contract.contract.form.hide.details</field>
@@ -74,6 +75,7 @@
                 />
             </xpath>
             <xpath expr="//field[@name='contract_line_ids']/tree" position="inside">
+<<<<<<< HEAD
                                 <field
                     name="show_details"
                     widget="boolean_fa_icon"
@@ -86,10 +88,26 @@
                                 'hover_true': 'Switch to: details hidden',
                                 'hover_false': 'Switch to: details shown',
                             },
+=======
+                <field
+                    name="show_details"
+                    widget="boolean_fa_icon"
+                    options="{
+                           'show_in_line_section': true,
+                           'fa_icons': {
+                               'icon_true': 'fa-eye',
+                               'icon_false': 'fa-eye-slash',
+                            },
+                           'terminology': {
+                               'hover_true': 'Switch to: details hidden',
+                               'hover_false': 'Switch to: details shown',
+                           },
+>>>>>>> [IMP] contract_layout_category_hide_detail: black, isort, prettier
                        }"
                     attrs="{'invisible': [('display_type', '!=', 'line_section')]}"
                 />
                 <field
+<<<<<<< HEAD
                     name="show_section_subtotal"
                     widget="boolean_fa_icon"
                     options="{
@@ -134,6 +152,20 @@
                                 'hover_true': 'Switch to: line amount hidden',
                                 'hover_false': 'Switch to: line amount shown',
                             },
+=======
+                    name="show_subtotal"
+                    widget="boolean_fa_icon"
+                    options="{
+                           'show_in_line_section': true,
+                           'fa_icons': {
+                               'icon_true': 'fa-plus-circle',
+                               'icon_false': 'fa-minus-circle',
+                           },
+                           'terminology': {
+                               'hover_true': 'Switch to: subtotal hidden',
+                               'hover_false': 'Switch to: subtotal shown',
+                           },
+>>>>>>> [IMP] contract_layout_category_hide_detail: black, isort, prettier
                        }"
                     attrs="{'invisible': ['|', ('display_type', '!=', 'line_section'), ('show_details', '!=', True)]}"
                 />
