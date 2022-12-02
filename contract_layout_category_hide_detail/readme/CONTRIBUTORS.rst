@@ -3,3 +3,7 @@
   * Ernesto Tejeda
   * Pedro M. Baeza
   * Víctor Martínez
+
+* `Mind And Go <https://mind-and-go.com>` _:
+
+   * Torrecillas Gael
