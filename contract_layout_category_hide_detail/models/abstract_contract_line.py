@@ -14,4 +14,3 @@ class ContractAbstractContractLine(models.AbstractModel):
         help="Uncheck this if you want to hide the subtotal on section part",
     )
     show_line_amount = fields.Boolean(string="Show line amount", default=True)
-
