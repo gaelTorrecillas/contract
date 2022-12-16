@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-16 09:30+0000\n"
-"PO-Revision-Date: 2022-12-16 09:30+0000\n"
+"POT-Creation-Date: 2022-12-16 09:31+0000\n"
+"PO-Revision-Date: 2022-12-16 09:31+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,24 +18,24 @@ msgstr ""
 #. module: contract_layout_category_hide_detail
 #: model:ir.model,name:contract_layout_category_hide_detail.model_contract_abstract_contract_line
 msgid "Abstract Recurring Contract Line"
-msgstr ""
+msgstr "Base pour les lignes de contrats récurrents"
 
 #. module: contract_layout_category_hide_detail
 #: model:ir.model,name:contract_layout_category_hide_detail.model_contract_line
 msgid "Contract Line"
-msgstr ""
+msgstr "Ligne de contrat"
 
 #. module: contract_layout_category_hide_detail
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_abstract_contract_line__custom_external_id
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_line__custom_external_id
 msgid "Custom external reference"
-msgstr ""
+msgstr "Référence externe personnalisée"
 
 #. module: contract_layout_category_hide_detail
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_abstract_contract_line__display_name
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_line__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nom à afficher"
 
 #. module: contract_layout_category_hide_detail
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_abstract_contract_line__id
@@ -47,39 +47,39 @@ msgstr ""
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_abstract_contract_line____last_update
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_line____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Dernière modification le"
 
 #. module: contract_layout_category_hide_detail
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_abstract_contract_line__show_section_subtotal
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_line__show_section_subtotal
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_template_line__show_section_subtotal
 msgid "Show Section Subtotal"
-msgstr ""
+msgstr "Afficher le sous total de la section"
 
 #. module: contract_layout_category_hide_detail
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_abstract_contract_line__show_details
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_line__show_details
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_template_line__show_details
 msgid "Show details"
-msgstr ""
+msgstr "Afficher les détails"
 
 #. module: contract_layout_category_hide_detail
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_abstract_contract_line__show_line_amount
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_line__show_line_amount
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_template_line__show_line_amount
 msgid "Show line amount"
-msgstr ""
+msgstr "Afficher le total de la ligne"
 
 #. module: contract_layout_category_hide_detail
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_abstract_contract_line__show_subtotal
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_line__show_subtotal
 #: model:ir.model.fields,field_description:contract_layout_category_hide_detail.field_contract_template_line__show_subtotal
 msgid "Show subtotal"
-msgstr ""
+msgstr "Afficher le sous total"
 
 #. module: contract_layout_category_hide_detail
 #: model:ir.model.fields,help:contract_layout_category_hide_detail.field_contract_abstract_contract_line__show_section_subtotal
 #: model:ir.model.fields,help:contract_layout_category_hide_detail.field_contract_line__show_section_subtotal
 #: model:ir.model.fields,help:contract_layout_category_hide_detail.field_contract_template_line__show_section_subtotal
 msgid "Uncheck this if you want to hide the subtotal on section part"
-msgstr ""
+msgstr "Décochez cette case si vous souhaitez masquer le sous-total sur la section."
